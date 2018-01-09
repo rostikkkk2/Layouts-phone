@@ -1,0 +1,184 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: rgb(212, 212, 212);
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.conturs-center{
+  min-height: 100vh;
+  width: 50%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.main-part-for-payment-phone{
+  margin-top: 220px;
+  min-height: 40vh;
+  background-color: #e3e367;
+}
+
+.icon-important{
+  display: inline-block;
+  width: 14px;
+  height: 4px;
+  border-radius: 6px;
+  background-color: rgb(220, 240, 255);
+  color: #6161cf;
+  text-align: center;
+  padding-bottom: 19px;
+  border: 1px solid #4c4c99;
+}
+
+.pl-251{
+  padding-left: 251px;
+}
+
+.list-menu{
+  margin-bottom: 16px;
+}
+
+.pr-2{
+  padding-right: 2px;
+}
+
+div.list-menu span{
+  font-weight: bold;
+}
+
+.mt-95{
+  margin-top: 95px;
+}
+
+.button-buy{
+  margin-top: 44px;
+  background-color: #6afc6a;
+  font-size: 27px;
+  color: white;
+  box-shadow: 0px 0 18px #4dbe4d;
+}
+
+.button-buy:hover{
+  color: white;
+}
+
+.buy-in-credit{
+  border-bottom: 1px dashed #568DA7;
+}
+
+.buy-credit{
+  margin-top: 21px;
+  font-size: 16px;
+}
+
+.icons-heard-compareson-graphick{
+  font-size: 32px;
+  color: #c2c2c2;
+}
+
+.icon-heard{
+  color: #d7d74f;
+}
+
+.mt-20{
+  margin-top: 20px;
+}
+
+.border-right{
+  border-right: 1px solid #d1d1d1;
+}
+
+.pb-20{
+  padding-bottom: 20px;
+}
+
+.in-wish-follow-compare{
+  border-bottom: 1px dashed #568DA7;
+}
+
+@media(max-width: 425px) {
+  .conturs-center{
+    width: 100% !important;
+  }
+  .pl-251 {
+    padding-left: 21px !important;
+  }
+}
+
+@media(max-width: 768px) {
+  .conturs-center{
+    width: 100%;
+  }
+  .mt-95{
+    margin-top: 30px;
+  }
+  .pl-251{
+    padding-left: 200px;
+  }
+}
+
+@media(min-width: 768px) {
+  .conturs-center{
+    width: 100%;
+  }
+  .mt-95{
+    margin-top: 30px;
+  }
+  .pl-251{
+    padding-left: 200px;
+  }
+}
+
+@media(min-width: 1024px) {
+  .conturs-center{
+    width: 85%;
+  }
+  .mt-95{
+    margin-top: 95px;
+  }
+  .pl-251{
+    padding-left: 251px;
+  }
+}
+
+@media(min-width: 1440px) {
+  .conturs-center{
+    width: 70%;
+  }
+  .mt-95{
+    margin-top: 95px;
+  }
+  .pl-251{
+    padding-left: 251px;
+  }
+}
+
+@media(min-width: 1640px) {
+  .conturs-center{
+    width: 59%;
+  }
+  .mt-95{
+    margin-top: 95px;
+  }
+  .pl-251{
+    padding-left: 251px;
+  }
+}
+
+@media(min-width: 1883px) {
+  .conturs-center{
+    width: 51%;
+  }
+  .mt-95{
+    margin-top: 95px;
+  }
+  .pl-251{
+    padding-left: 251px;
+  }
+}

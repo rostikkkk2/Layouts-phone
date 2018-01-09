@@ -1,0 +1,38 @@
+.text-bold{
+  font-weight: bold;
+}
+
+.border-bottom{
+  border-bottom: 1px solid grey;
+}
+
+.p-5{
+  padding: 5px 0;
+}
+
+.border-right{
+  border-right: 1px solid grey;
+}
+
+.mb-7{
+  margin-bottom: 7px;
+}
+
+.divider{
+  height: 1px;
+  width: 80%;
+  color: grey;
+}
+
+
+.available{
+  color: green;
+}
+
+.not-available{
+  color: red;
+}
+
+.mb-40{
+  margin-bottom: 40px;
+}

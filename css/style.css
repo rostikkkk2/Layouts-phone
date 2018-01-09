@@ -1,0 +1,28 @@
+.filters{
+  min-height: 300px;
+}
+
+.good img{
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+.good .title{
+  font-size: 16px;
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.characteristics li{
+  font-weight: bold;
+  margin: 4px 0;
+}
+
+.characteristics li span{
+  font-weight: normal;
+}
+
+.good-block{
+  margin-bottom: 50px;
+}

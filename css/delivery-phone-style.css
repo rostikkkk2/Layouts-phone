@@ -1,0 +1,153 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: rgb(212, 212, 212);
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.conturs-center{
+  min-height: 100vh;
+  width: 50%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.main-part-for-delivery-phone{
+  margin: auto;
+  margin-top: 210px;
+  min-height: 55vh;
+  background-color: #ededed;
+  width: 35%;
+}
+
+.change-city{
+  margin-top: 10px;
+}
+
+.change-city-text{
+  color: #5a5a7a;
+  font-size: 13px;
+}
+
+.cities-list{
+  border: none;
+  background-color: #ededed;
+  border-bottom: 1px dashed #568DA7;
+  color: #4192ff;
+}
+
+.delivery-text{
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+.icon-home-car-card-back-bought{
+  font-size: 27px;
+}
+
+.mt-14{
+  margin-top: 14px;
+}
+
+.fw-b{
+  font-weight: bold;
+}
+
+.fs-10{
+  font-size: 10px;
+}
+
+.fs-13{
+  font-size: 13px;
+}
+
+.fs-12{
+  font-size: 12px;
+}
+
+.mt-18{
+  margin-top: 18px;
+}
+
+.all-variants-delivery{
+  border-bottom: 1px dashed #568DA7;
+}
+
+.pay-text{
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.bt{
+  border-top: 1px solid #c8c8c8;
+}
+
+.mt-7{
+  margin-top: 7px;
+}
+
+.go-back-bought{
+  font-weight: bold;
+  font-size: 16px;
+}
+
+@media(max-width: 425px) {
+  .main-part-for-delivery-phone {
+    width: 100%;
+  }
+  .conturs-center{
+    width: 100%;
+  }
+}
+
+@media(min-width: 768px) {
+  .main-part-for-delivery-phone {
+    width: 43%;
+  }
+  .conturs-center{
+    width: 100%;
+  }
+}
+
+@media(min-width: 1024px) {
+  .main-part-for-delivery-phone {
+    width: 55%;
+  }
+  .conturs-center{
+    width: 60%;
+  }
+}
+
+@media(min-width: 1280px) {
+  .main-part-for-delivery-phone {
+    width: 43%;
+  }
+  .conturs-center{
+    width: 60%;
+  }
+}
+
+@media(min-width: 1440px) {
+  .main-part-for-delivery-phone {
+    width: 46%;
+  }
+  .conturs-center{
+    width: 50%;
+  }
+}
+
+
+@media(min-width: 1700px) {
+  .main-part-for-delivery-phone {
+    width: 40%;
+  }
+  .conturs-center{
+    width: 50%;
+  }
+}

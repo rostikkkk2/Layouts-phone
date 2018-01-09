@@ -1,0 +1,291 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: rgb(212, 212, 212);
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.conturs-center{
+  min-height: 100vh;
+  width: 50%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.main-part-for-phone{
+  margin-top: 220px;
+  min-height: 50vh;
+}
+
+.img-phone{
+  width: 215px;
+}
+
+.add-to-comparison-and-wish{
+  color: blue;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.add-to-wish-and-comparison{
+  border-bottom: 1px dashed #568DA7;
+  color: blue;
+}
+
+.block-price{
+  border: 1px solid rgb(227, 227, 227);
+  height: 170px;
+  width: 390px;
+  background-color: rgb(247, 247, 247);
+  padding-top: 10px;
+}
+
+.mt-4{
+  margin-top: 4px;
+}
+
+.text-price{
+  font-size: 10px;
+}
+
+.old-price{
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.new-price{
+  font-size: 26px;
+}
+
+.new-price-text{
+  color: rgb(255, 78, 78);
+  font-weight: bold;
+  margin: -6px 0 -7px 0;
+}
+
+.follow-me{
+  border-bottom: 1px dashed #568DA7;
+  font-size: 12px;
+  color: blue;
+}
+
+.price-one-month{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.price-month{
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.btn-buy{
+  font-size: 23px;
+  font-weight: bold;
+  background-color: rgb(255, 78, 78);
+  margin-bottom: 16px;
+  width: 130px;
+  margin-top: 7px;
+  color: white;
+}
+
+.btn-buy:hover{
+  color: white;
+}
+
+.btn-buy-credit{
+  font-size: 13px;
+  font-weight: bold;
+  background-color: orange;
+  width: 130px;
+  color: white;
+}
+
+.btn-buy-credit:hover{
+  color: white;
+}
+
+.buy-one-click{
+  border-bottom: 1px dashed #568DA7;
+  font-size: 12px;
+  color: blue;
+}
+
+.mt-8{
+  margin-top: 8px;
+}
+
+.characteristics-phone{
+  min-height: 221px;
+  width: 83%;
+  margin-top: 11px;
+}
+
+.star-user{
+  font-size: 13px;
+}
+
+.icon-star{
+  color: red;
+}
+
+.red{
+  color: red;
+}
+
+.massage-from-users{
+  border-bottom: 1px solid;
+}
+
+.characteristics-list{
+  margin-top: 10px;
+}
+
+.color-name{
+  font-size: 15px;
+  font-weight: bold;
+  color: #4c4c59;
+}
+
+.color-name-phone{
+  font-size: 13px;
+  color: #787878;
+}
+
+ul.characteristics-list li{
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.icon-star-grey{
+  color: rgb(230, 224, 232);
+}
+
+.whats-charact{
+  color: rgb(126, 114, 114);
+  font-size: 12px;
+}
+
+.block{
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+  border: 1px solid;
+  display: inline-block;
+}
+
+.block-black{
+  background-color: black;
+}
+
+.block-green{
+  background-color: green;
+  border-color: red;
+  border-width: 3px;
+}
+
+.block-white{
+  background-color: white;
+}
+
+.color-mini-line{
+  background-color: #c8c8c8 !important;
+}
+
+ul.how-many-color-line div{
+  width: 17px;
+  height: 7px;
+  background-color: red;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+ul.how-many-color-line li{
+  list-style-type: none;
+  font-size: 13px;
+  margin-bottom: -8px;
+}
+
+ul.how-many-color-line span{
+  font-size: 11px;
+  color: rgb(150, 150, 150);
+}
+
+
+
+
+@media(min-width:320px) {
+  .conturs-center{
+    width: 100%;
+  }
+}
+
+@media(max-width:375px) {
+  .block-price{
+    width: 376px !important;
+  }
+}
+
+@media(max-width:425px) {
+  .img-phone{
+    width: 150px;
+  }
+  .block-price{
+    width: 425px;
+  }
+}
+
+@media(max-width:769px) {
+  .star-user{
+    font-size: 11px;
+  }
+}
+
+@media(min-width:1024px) {
+  .conturs-center{
+    width: 87%;
+  }
+}
+
+@media(min-width:1125px) {
+  .conturs-center{
+    width: 80%;
+  }
+}
+
+@media(min-width:1341px) {
+  .conturs-center{
+    width: 67%;
+  }
+}
+
+@media(min-width:1440px) {
+  .conturs-center{
+    width: 62%;
+  }
+}
+
+@media(min-width:1500px) {
+  .conturs-center{
+    width: 60%;
+  }
+}
+
+@media(min-width:1737px) {
+  .conturs-center{
+    width: 52%;
+  }
+}
+
+@media(min-width:1784px) {
+  .conturs-center{
+    width: 50%;
+  }
+}

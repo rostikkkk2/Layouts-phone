@@ -36,24 +36,12 @@ a:hover{
   border: 1px solid #4c4c99;
 }
 
-.pl-251{
-  padding-left: 251px;
-}
-
 .list-menu{
   margin-bottom: 16px;
 }
 
-.pr-2{
-  padding-right: 2px;
-}
-
 div.list-menu span{
   font-weight: bold;
-}
-
-.mt-95{
-  margin-top: 95px;
 }
 
 .button-buy{
@@ -86,16 +74,8 @@ div.list-menu span{
   color: #d7d74f;
 }
 
-.mt-20{
-  margin-top: 20px;
-}
-
 .border-right{
   border-right: 1px solid #d1d1d1;
-}
-
-.pb-20{
-  padding-bottom: 20px;
 }
 
 .in-wish-follow-compare{

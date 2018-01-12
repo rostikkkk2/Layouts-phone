@@ -51,30 +51,6 @@ a:hover{
   font-size: 27px;
 }
 
-.mt-14{
-  margin-top: 14px;
-}
-
-.fw-b{
-  font-weight: bold;
-}
-
-.fs-10{
-  font-size: 10px;
-}
-
-.fs-13{
-  font-size: 13px;
-}
-
-.fs-12{
-  font-size: 12px;
-}
-
-.mt-18{
-  margin-top: 18px;
-}
-
 .all-variants-delivery{
   border-bottom: 1px dashed #568DA7;
 }
@@ -86,10 +62,6 @@ a:hover{
 
 .bt{
   border-top: 1px solid #c8c8c8;
-}
-
-.mt-7{
-  margin-top: 7px;
 }
 
 .go-back-bought{
